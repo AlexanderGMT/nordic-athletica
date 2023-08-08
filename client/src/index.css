@@ -1,0 +1,497 @@
+::before,::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  font-size: 1.2rem;
+  color: #656262;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #fff;
+  overflow-y: scroll;
+}
+
+.form_container {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+}
+
+.form_container > h2 {
+  margin-block: 1rem;
+  padding-block: 0.6rem;
+  color: rgba(0, 212, 255, 1);
+}
+
+.form_container > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.form_container div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.form_container input {
+  border: none;
+  padding: 0.5rem;
+  border-bottom: 1px solid gray;
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.form_container input::placeholder {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.form_container button {
+  background-color: #526D82;
+  color: #fff;
+  border: none;
+  padding: 0.6rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+.form_container button:hover {
+  background-color: rgba(0, 212, 255, 1) ;
+}
+
+span a {
+  text-decoration: none;
+  color: rgba(0, 212, 255, 1);
+}
+
+.home_page span {
+  color: rgba(0, 212, 255, 1);
+}
+
+.logout-btn {
+  background-color: #526D82;
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  transition: ease-in 0.3s;
+  border: none;
+  position: absolute;
+  right: 20px;
+  bottom: 2px;
+  
+}
+
+.logout-btn:hover {
+  background-color: rgba(0, 212, 255, 1);
+}
+
+
+.navbar {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  position: sticky; /* Set the navbar to a sticky position */
+  top: 0; /* Position it at the top of the viewport when scrolling */
+  z-index: 100; /* Ensure it is above other elements */
+  padding-right: 200px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+.navbar a:hover {
+  color: rgba(0, 212, 255, 1);
+}
+
+
+.home_page_image {
+  min-height: 850px;
+  width: 99vw;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  margin-bottom: 61px;
+}
+
+.image_text {
+  font-size: 5rem;
+  text-align: left;
+  padding-top: 300px;
+  margin-left: 90px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  text-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+
+::-webkit-scrollbar {
+  width: 19px; /* Adjust the width of the scrollbar */
+  background-color: #526D82;
+}
+
+/* Styling the scrollbar thumb (the draggable handle) */
+::-webkit-scrollbar-thumb {
+  background-color: grey; /* Color of the thumb */
+  border-radius: 5px; /* Rounded corners of the thumb */
+}
+
+/* Styling the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 212, 255, 1); /* Color of the thumb on hover */
+}
+
+.test-text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.4;
+  max-width: 800px;
+  column-count: 1;
+  margin-left: 100px;
+  margin-top: 200px;
+  color: #526D82;
+}
+
+
+.test-text3 {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.4;
+  max-width: 800px;
+  column-count: 1;
+  margin-left: 100px;
+  margin-top: 300px;
+  padding-bottom: 200px;
+  color: #526D82;
+}
+
+
+
+
+
+.movable-image {
+  position: relative;
+  left: 1100px;
+  bottom: 400px;
+  width: 500px;
+  height: 700px;
+  border-radius: 5%;
+}
+
+.movable-image2 {
+  position: relative;
+  left: 250px;
+  top: 100px;
+  width: 500px;
+  height: 700px;
+  border-radius: 5%;
+}
+
+.test-text2 {
+  font-size: 16px;
+  line-height: 1.4;
+  max-width: 800px;
+  column-count: 1;
+  margin-top: 275px;
+  margin-right: 150px;
+  text-align: center;
+  float: right;
+  color: #526D82;
+}
+
+.address {
+  float: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 1.4;
+}
+
+
+.movable-image3 {
+  position: relative;
+  left: 1100px;
+  top: 175px;
+  width: 720px;
+  height: 700px;
+  border-radius: 5%;
+}
+
+
+
+
+.test-button {
+  display: inline-block;
+  padding: 12px 20px; /* Adjust padding to change button size */
+  background-color: #526D82; /* Set the background color */
+  color: #fff; /* Set the text color */
+  border: none; /* Remove the default button border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+  text-align: center; /* Center the text inside the button */
+  font-size: 16px; /* Set the font size */
+  font-weight: bold; /* Set the font weight */
+  transition: background-color 0.2s; /* Add a smooth transition on hover */
+  text-decoration: none;
+}
+
+.test-button:hover {
+  background-color: rgba(0, 212, 255, 1); /* Change the background color on hover */
+}
+
+
+.Service-header {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.service-container {
+  display: flex;
+  flex-flow: row warp;
+}
+
+.box {
+  padding: 20px;
+  flex: 1 0 200px;
+  width: 200px; height: 350px;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 150px;
+  text-align: left;
+  box-shadow: 0px 3px 3px #000;
+  transition: all 300ms ease-in-out;
+  background-color:#D8D9DA;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+.box:hover {
+  box-shadow: 0px 10px 40px #222;
+  width: 202px; height: 355px;
+}
+
+
+
+.login-container {
+  background-image: url('../public/login-background.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.gym-name {
+  font-size: 50px;
+  color: #97FEED;
+  padding-left: 90px;
+  padding-top: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.Service-description {
+  padding-top: 30px;
+  text-align: center;
+  line-height: 2;
+}
+
+.service-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%; 
+  height: 2px;
+}
+
+.service-title {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 22px;
+  color:#2D4356;
+}
+
+.service-text {
+  margin-top: 60px;
+}
+
+
+
+.parallax {
+  /* Full height */
+  height: 100vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.parallax1 {
+  /* The first parallax image */
+  background-image: url('../public/login-background.jpg');
+}
+
+.parallax2 {
+  /* The second image */
+  background-image: url('../public/alora5.jpg');
+}
+
+.parallax3 {
+  background-image: url('../public/sauna1.jpg');
+}
+
+.parallax4 {
+  background-image: url('../public/header.jpg');
+}
+
+
+.offer-container {
+  display: flex;
+  align-items: center;
+  height: 500px;
+  flex-direction: column;
+}
+
+.offer-container::before {
+  content: '';
+  width: 2px;
+  background-color: #000;
+  height: 100%;
+}
+
+.offer-container::after {
+  content: '';
+  width: 2px;
+  background-color: #000;
+  height: 100%;
+}
+
+.offer-box {
+  flex: 1;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 40px;
+  text-align: center;
+  max-width: calc(50% - 10px); /* Adjust the width of each box */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.offer-box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.offer-box p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.left-box {
+  margin-right: 10px; /* Add some space between boxes */
+}
+
+.right-box {
+  margin-left: 10px; /* Add some space between boxes */
+}
+
+.home-footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-nav {
+  text-align: center;
+  margin-bottom: auto; /* Push this div to the top */
+}
+
+.footer-nav2 {
+  text-align: center;
+  margin-top: auto; /* Push this div to the bottom */
+}
+
+.copy-footer {
+  flex:1;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.contact-footer {
+  position: absolute;
+  flex:1;
+  text-align: center;
+  margin-left: 810px;
+}
+
+.Icons {
+  flex: 1;
+  text-align: right;
+  margin-right: 30px;
+}
+
+
+.services-btn {
+  background-color: #526D82;
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  transition: ease-in 0.3s;
+  border: none;
+}
+
+
+.services-btn:hover {
+  background-color: rgba(0, 212, 255, 1);
+}
+
+.gym-name-footer {
+    font-size: 40px;
+    color: #97FEED;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+}
