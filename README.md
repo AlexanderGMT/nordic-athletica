@@ -1,0 +1,2 @@
+# nordic-athletica
+JAMK Project
