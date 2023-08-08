@@ -6,27 +6,29 @@ MENR Stack project with JWT.
 
 Sign up and Login page.
 
-![sign-up](https://github.com/AlexanderGMT/nordic-athletica/assets/113667393/3267f7fb-d115-4a68-b167-492afe0bc7bc)
+![sign-up](https://github.com/AlexanderGMT/nordic-athletica/assets/113667393/ec3df50c-abc9-40e0-9093-22bc205ba755)
 
 
-![login](https://github.com/AlexanderGMT/nordic-athletica/assets/113667393/cb0d053e-adbc-4913-abb6-0d0787cee337)
+![login](https://github.com/AlexanderGMT/nordic-athletica/assets/113667393/b8a60621-61dc-415f-ae6e-bff6e6f6122b)
+
 
 Home page with parallax effect.
 
-![home-page1](https://github.com/AlexanderGMT/nordic-athletica/assets/113667393/608b752d-2b96-4c5c-b4c0-792a0e2f845d)
+![home-page1](https://github.com/AlexanderGMT/nordic-athletica/assets/113667393/e141db3a-45f9-4ad6-a4cd-5c4f99e732c6)
 
-
-![home-page2](https://github.com/AlexanderGMT/nordic-athletica/assets/113667393/a6d122a2-57b1-4b44-a9a5-34f19ab67396)
+![home-page2](https://github.com/AlexanderGMT/nordic-athletica/assets/113667393/66b2f6f7-df15-4779-9e29-dd0cac6c5ae2)
 
 
 Footer.
 
-![footer](https://github.com/AlexanderGMT/nordic-athletica/assets/113667393/d4f839ad-7d27-414e-a9c0-1dfc536be891)
+![footer](https://github.com/AlexanderGMT/nordic-athletica/assets/113667393/df68850e-aae8-4c75-8d8c-4d84739e13e0)
+
 
 
 Services page.
 
-![Captura de pantalla 2023-08-09 020244](https://github.com/AlexanderGMT/nordic-athletica/assets/113667393/2bf98e88-3e60-4fc8-ad73-ad97866dab6d)
+![Captura de pantalla 2023-08-09 020244](https://github.com/AlexanderGMT/nordic-athletica/assets/113667393/34375833-cae7-4de6-b51c-7087318c3a66)
+
 
 
 
